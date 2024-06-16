@@ -13,13 +13,13 @@ const NavbarComponent = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse style={{paddingRight: 20}}>
                 <Nav className="ms-auto">
-                    <Nav.Link as={ScrollLink} to="Section1" onClick={() => navigate('/survey')} spy={true} smooth={true} duration={500} offset={-70}>
+                    <Nav.Link as={ScrollLink} to="Section1" onClick={() => navigate('/survey')} spy={true} smooth={true} duration={500} offset={-70} style={{cursor: 'pointer'}}>
                         Home
                     </Nav.Link>
-                    <Nav.Link as={ScrollLink} to="Section2" onClick={() => navigate('/survey')} smooth={true} duration={500} offset={-70}>
+                    <Nav.Link as={ScrollLink} to="Section2" onClick={() => navigate('/survey')} smooth={true} duration={500} offset={-70} style={{cursor: 'pointer'}}>
                         About Research
                     </Nav.Link>
-                    <Nav.Link as={ScrollLink} to="Section3" onClick={() => navigate('/survey')} spy={true} smooth={true} duration={500} offset={-70}>
+                    <Nav.Link as={ScrollLink} to="Section3" onClick={() => navigate('/survey')} spy={true} smooth={true} duration={500} offset={-70} style={{cursor: 'pointer'}}>
                         Our Team
                     </Nav.Link>
                     <Button variant="outline-success" onClick={() => navigate('/survey/form')}>
