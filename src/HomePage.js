@@ -3,7 +3,7 @@ import { Element } from "react-scroll";
 
 export const HomePage = () => {
     return (
-        <div style={{ paddingTop: 70, backgroundColor: "#FFF4DF" }}>
+        <div style={{ paddingTop: 70, backgroundColor: "#ffe9d1" }}>
             <Element name="Section1" className="element section1">
                 <div className="container">
                     <div className="row">
