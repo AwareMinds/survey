@@ -7,18 +7,19 @@ export const HomePage = () => {
             <Element name="Section1" className="element section1">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6 col-12 d-flex align-items-center">
+                        <div className="col-md-5 col-12 d-flex align-items-center">
                             <div>
                                 <div style={{ fontSize: 50, color: '#4a4a4a' }}>
                                     Mental Health Matters
                                 </div>
                                 <h6 style={{ color: '#52A447', paddingTop: 80, }}>
-                                    There is hope, even when your brain tells you
-                                    there isn't." - John Green
+                                    <i>"There is hope, even when your brain tells you
+                                        there isn't." - John Green
+                                    </i>
                                 </h6>
                             </div>
                         </div>
-                        <div className="col-md-6 col-12 section1_side2">
+                        <div className="col-md-7 col-12 section1_side2">
                             <div>
                                 {/* Section 2 */}
                             </div>
@@ -110,7 +111,7 @@ export const HomePage = () => {
                         Our Team
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-12" style={{paddingTop: 50}}>
+                        <div className="col-md-6 col-12" style={{ paddingTop: 50 }}>
                             <div style={{ fontSize: 20 }}>Dr M Vimala Rani</div>
                             <div style={{ fontSize: 16 }}>
                                 Assistant Professor<br />
@@ -119,12 +120,12 @@ export const HomePage = () => {
                             </div>
                             <a href="https://www.iitkgp.ac.in/department/BM/faculty/bm-vimala">
                                 Profile
-                            </a><br/>
+                            </a><br />
                             <a href="https://www.linkedin.com/in/dr-vimala-rani-m-23b7a0101/">
                                 LinkedIn
                             </a>
                         </div>
-                        <div className="col-md-6 col-12" style={{paddingTop: 50}}>
+                        <div className="col-md-6 col-12" style={{ paddingTop: 50 }}>
                             <div style={{ fontSize: 20 }}>Dr. Basudeb Das</div>
                             <div style={{ fontSize: 16 }}>
                                 Professor of Psychiatry<br />
@@ -133,7 +134,7 @@ export const HomePage = () => {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6 col-12" style={{paddingTop: 50}}>
+                        <div className="col-md-6 col-12" style={{ paddingTop: 50 }}>
                             <div style={{ fontSize: 20 }}>Ms Antara Ravindra Sarode</div>
                             <div style={{ fontSize: 16 }}>
                                 Research Scholar<br />
@@ -146,7 +147,7 @@ export const HomePage = () => {
                                 LinkedIn
                             </a>
                         </div>
-                        <div className="col-md-6 col-12" style={{paddingTop: 50}}>
+                        <div className="col-md-6 col-12" style={{ paddingTop: 50 }}>
                             <div style={{ fontSize: 20 }}>Dr. Umesh S.</div>
                             <div style={{ fontSize: 16 }}>
                                 Associate Professor of Psychiatry<br />
@@ -154,7 +155,7 @@ export const HomePage = () => {
                             </div>
                             <a href="https://cipranchi.nic.in/?p=facultydetails&facid=70">
                                 Profile
-                            </a><br/>
+                            </a><br />
                             <a href="linkedin.com/in/dr-umesh-s-477a7198">
                                 LinkedIn
                             </a>
