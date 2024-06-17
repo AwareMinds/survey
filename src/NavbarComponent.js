@@ -22,7 +22,7 @@ const NavbarComponent = () => {
                     <Nav.Link as={ScrollLink} to="Section3" onClick={() => navigate('/survey')} spy={true} smooth={true} duration={500} offset={-70} style={{cursor: 'pointer'}}>
                         Our Team
                     </Nav.Link>
-                    <Button variant="outline-success" onClick={() => navigate('/survey/form')}>
+                    <Button variant="outline-success" href="https://docs.google.com/forms/d/e/1FAIpQLSf7ZxDCRJRZ0emU315Gf39mVCFrcj109NFej8BKBJrEyouLuA/viewform?usp=sf_link" target="_blank">
                         Participate in Survey
                     </Button>
                 </Nav>
